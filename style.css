@@ -1,0 +1,314 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0; 
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.6rem;
+}
+
+.hero-shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.top-hero{
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.top-hero-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+    height: 100%;
+}
+
+
+
+/* nav */
+
+nav{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.navbar-toggler{
+    font-size: 3rem;
+}
+
+.navbar-brand{
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Footer */
+footer{
+    font-size: 1.5rem;
+}
+.footer .fas{
+    font-size: 1.5rem;
+}
+
+/* Header */
+
+.header{
+    font-size: 2rem;
+}
+.carousel-item{
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.carousel-img-one{
+    background-image: url('img/green-car-s.jpg');
+}
+
+.carousel-img-two{
+    background-image: url('img/yellow-car-s.jpg');
+}
+
+.carousel-img-three{
+    background-image: url('img/red-car-s.jpg');
+}
+
+
+/* section home */
+
+.home-boxes{
+    padding: 5em 0;
+}
+
+.home-box i{
+    font-size: 3.5rem;
+}
+
+.home-box h3{
+    font-size: 2.2rem;
+}
+/* -------- */
+/* -------- */
+.home-passion{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    background-image: url('img/sunset-car.jpg');
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+/* --------- */
+.home-brand h3{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+
+/* ****ABOUTUS**** */
+.aboutus-hero {
+	background-image: url('../img/about/highway.jpg');
+	background-position: bottom;
+}
+/* <!-- ------ --> */
+
+.aboutus-info {
+	background-color: rgb(219, 159, 159);
+}
+
+.aboutus-info .container {
+	padding: 2em 0.5em;
+}
+
+.aboutus-text {
+	padding: 1.8em;
+}
+
+.aboutus-text h3 {
+	margin-bottom: 0.5em;
+	font-size: 2.6rem;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-decoration: underline #007bff;
+}
+
+.aboutus-text-right {
+	text-align: right;
+}
+
+.aboutus-img {
+	height: 300px;
+	object-fit: cover;
+}
+
+@media (min-width: 992px) {
+	.aboutus-info .container {
+		padding: 0;
+	}
+
+	.aboutus-shadow {
+		box-shadow: inset 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+	}
+
+	.aboutus-text {
+		padding: 5em 0;
+		transform: skew(-15deg);
+	}
+
+	.aboutus-text-left {
+		padding-right: 2em;
+		text-align: right;
+	}
+
+	.aboutus-text-right {
+		padding-left: 2em;
+		text-align: left;
+	}
+
+	.aboutus-img {
+		height: auto;
+		transform: skew(-15deg);
+	}
+}
+
+/* -------- */
+
+.aboutus-bottom i{
+    font-size: 3rem;
+}
+
+.aboutus-bottom h3{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+
+
+/* ****Offerts**** */
+.offerts-hero {
+	background-image: url('img/offerts/car-blue.jpg');
+	background-position: 50% 80%;
+    
+}
+
+/* ---------------- */
+.offerts-hero-box{
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    z-index: 0;
+}
+.offerts-hero-box p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.offerts-hero-box.box-one{
+    background: url("img/offerts/engine.jpg");
+}
+.offerts-hero-box.box-two{
+    background: url("img/offerts/visual.jpg");
+}
+.offerts-hero-box.box-three{
+    background: url("img/offerts/car-audio.jpg");
+}
+.offerts-hero-box.box-four{
+    background: url("img/offerts/allinone.jpg");
+}
+
+
+/* ****Projects**** */
+
+.project-hero {
+	background-image: url('img/projects/project-hero.jpg');
+	background-position: 50% 50%;
+    
+}
+
+.projects-hero-box{
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    z-index: 0;
+}
+
+
+
+.projects img{
+    height: 240px;
+    object-fit: cover;
+}
+
+.projects .btn{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+/* contact */
+.contact-hero{
+    background-image: url('img/contact/shelby.jpg');
+    background-position: 0 25%;
+}
+
+.contact h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2.6rem;
+}
+
+.contact-logo{
+    font-size: 3rem;
+}
+
+.contact input, .contact select, .contact textarea{
+    font-size: 1.6rem;
+}
+
+.contact .btn{
+    padding: 0.3rem 0.8rem;
+    font-size: 2rem;
+}
+
+.contact-map iframe{
+    width: 100%;
+    min-height: 400px;
+}
+/* Media queris */
+
+@media(min-width:1400px){
+    .carousel-item{
+        height: 600px;
+    }
+    .carousel-img-one{
+        background-image: url('img/green-car-b.jpg');
+    }
+    .carousel-img-two{
+        background-image: url('img/yellow-car-b.jpg');
+    }
+    
+    .carousel-img-three{
+        background-image: url('img/red-car-b.jpg');
+    }
+    
+}
