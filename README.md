@@ -27,13 +27,13 @@ Subpages (Each subpage contains common elements, namely Header and Footer):
 git clone https://github.com/Bartek9090/car_web  <br/>
 To run this project, install it locally, and execute a program.
 
-## Help
+### Help
 
 If you have any problem with website please do not hesitate text to me.
 
-## Authors
+### Authors
 Bartek9090
 
-## Version History
+### Version History
 
 Verion 1.0.0
