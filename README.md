@@ -1,28 +1,39 @@
-# Car Website
-Description
-A responsive photography website
+# Car-Tuning Company Website
+-------------------------
 
-The website consists of:
+## Description
+A responsive car tuning company website. Whole page was create in bootstrap.  
 
-4 sections:
+The website consists of main page and 4 subpages.<br/>  
+Common part for all of them is navigation, which can be use to switch between pages and subpages.   <br/>  
+Main pages was builid built with a header containing a changing background. You can also change the background with buttons.
+All components used are sourced from bootstrap.
 
-1 Animated menu with floating-bg animated in CSS.
-2 Gallery of pictures
-3 Section about us, Contain pictures of team with more details on hoover effect.
-4 Contact section with footer on the end.
-Dependencies
-google fonts family Bellota 200, 300, 400, 500, 600, 700, 800, 900
-google fonts family Monoton 200, 300, 400, 500, 600, 700, 800, 900
-font awsome
-Installing
-git clone https://github.com/Bartek9090/photo_web
+Next, where is the main section. 
+Containing 3 different variants of the subsection ended with a footer.   
+Subpages (Each subpage contains common elements, namely Header and Footer):
+  - 1 About us contains 3 section giving the opportunity to present the company.
+  - 2 Offers contains 2 section
+  - 3 Project containing galleries of projects 
+  - 4 Contact. We distinguish 3 main elements. Contact  panel containing information about the company. Contact Form Panel containing two drop menus from bootstrap. And a map       downloaded from iframe google maps.
+
+### Dependencies
+
+* google fonts family Raleway 400, 700, 
+* font awsome
+* bootstrap 5.1.3 CS and JS bundle
+
+### Installing
+git clone https://github.com/Bartek9090/car_web  <br/>
 To run this project, install it locally, and execute a program.
 
-Help
+## Help
+
 If you have any problem with website please do not hesitate text to me.
 
-Authors
+## Authors
 Bartek9090
 
-Version History
+## Version History
+
 Verion 1.0.0
