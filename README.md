@@ -23,10 +23,6 @@ Subpages (Each subpage contains common elements, namely Header and Footer):
 * font awsome
 * bootstrap 5.1.3 CS and JS bundle
 
-### Installing
-git clone https://github.com/Bartek9090/car_web  <br/>
-To run this project, install it locally, and execute a program.
-
 ### Help
 
 If you have any problem with website please do not hesitate text to me.
