@@ -6,7 +6,7 @@ A responsive car tuning company website. Whole page was create in bootstrap.
 
 The website consists of main page and 4 subpages.<br/>  
 Common part for all of them is navigation, which can be use to switch between pages and subpages.   <br/>  
-Main pages was builid built with a header containing a changing background. You can also change the background with buttons.
+Homepages were built with a header containing a changing background. You can also change the background with buttons.
 All components used are sourced from bootstrap.
 
 Next, where is the main section. 
