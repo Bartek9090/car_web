@@ -17,6 +17,16 @@ Subpages (Each subpage contains common elements, namely Header and Footer):
   - 3 Project containing galleries of projects 
   - 4 Contact. We distinguish 3 main elements. Contact  panel containing information about the company. Contact Form Panel containing two drop menus from bootstrap. And a map       downloaded from iframe google maps.
 
+## Technologies:
+  - Bootsrap
+
+## Features:
+* hamburger menu
+* fully responsive
+* coarrusel anmimation
+* contact form
+
+
 ### Dependencies
 
 * google fonts family Raleway 400, 700, 
@@ -30,6 +40,4 @@ If you have any problem with website please do not hesitate text to me.
 ### Authors
 Bartek9090
 
-### Version History
 
-Verion 1.0.0
